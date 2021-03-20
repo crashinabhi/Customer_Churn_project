@@ -4,7 +4,7 @@
 
 ## Overview of the Project
 
-Customer Churn [or attrition] is considered to be one of the most important metrics of a growing business to evaluate. Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame. Through our project we are trying to build an algorithm that predicts whether a user will churn after their subscription expires with a leading music straming service KKBOX [Asia's leading music straming service]. 
+Customer Churn [or attrition] is considered to be one of the most important metrics of a growing business to evaluate. Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame. Through our project we are trying to build an algorithm that predicts whether a user will churn after their subscription expires with a leading music streaming service KKBOX [Asia's leading music streaming service]. 
 
 ![4](https://user-images.githubusercontent.com/73450637/111884843-90aa9780-899a-11eb-998b-1197132736f8.png)
 
