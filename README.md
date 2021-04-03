@@ -21,3 +21,6 @@ The following technical analysis are to be done:
 * Data Source: [Kaggle WSDM-KKBOX's Churn Prediction Challenge] (https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data)
 * Software: Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
 
+## Presentation
+
+Link to google slides [Google Slides] (https://docs.google.com/presentation/d/1UmXOxAZ9JpmB8rLuez7z_MdUy2Op1KxzBqEdxVQ9hEM/edit#slide=id.gcc00991075_0_4)
