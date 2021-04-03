@@ -53,3 +53,69 @@ Users with registration method [ID - 9] has the highest rate of attrition with 6
 ![e](https://user-images.githubusercontent.com/73450637/111888037-716a3500-89af-11eb-8cfb-4bdcd71fedca.png)
 
 Upon considering the registartion year, the average churn rate over the years have been almost within 0.3-1.7% which shows no specific trend in a particular year. 
+
+## Major Outcomes After Data Processing
+
+1. Decoded the age group into groups, 0 represent [0-10], 1 represent [10-20], 2 represent [20-30], 3 represent [30-40], 4 represent [40-50], 5 represent [50-60], 6 represent [60-70] and 7 represent [70-80].
+2. The most number of customers are from age group ranging from 1-4 that represents youngsters.
+3. While considering the registration year distribution against churn data, from year 2010, registration is increased except 2014. 
+4. There are almost 54% of users who uses 41st payment method. 
+5. But for payment methods 8, 12, 13, 22, 35, 20, 17 15 and 32 there is high churning rate. 
+6. Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
+7. Besides 30 days plan, the users who purchased another plan have very high tendency to leave the service. 
+8. Lot of users (almost 94.25%) have their plan price 99,100, 129, 149 and 180 NTD. 
+9. Variations exist in few city names, but in our data set no city names are given instead codes are being used. 
+10. Decide these five values if a user purchases any other plans, then there is a very high tendency of leaving. 
+
+> * Based on the conclusions made through the data processing only those columns with considerable changes are chosen for the machine learning process. 
+> * The following columns are chosen from each dataset:
+
+#### a. Columns chosen from Member Details.csv
+> Cunstomer_ID, Age and Gender
+
+#### b. Columns chosen from Transactions.csv
+> Customer_ID, Payment_Plan_Days, Auto_Renewed, Cancelled
+
+#### c. Columns chosen from User Logs.csv
+> Customer_ID, Less_Than_25, Above_99, Unique_Songs, Total_Secs
+
+## Database Creation in pgAdmin
+
+### STEP 1: Table Creation
+
+After data analysis process and shortlisting all the necessary columns, dropping the null values using Jupyter Notebook, I moved on to the next phase of creating the database with just the informations needed. 
+
+#### The key challenges and outcomes were as listed below:
+
+* The dataset had a million columns and outliers. The data was cleaned up using Jupyter notebook. 
+* Four columns were created in pgAdmin as shown below:
+
+> First table with member details
+![Table 1](https://user-images.githubusercontent.com/73450637/113486576-9798d600-9481-11eb-8d7a-c7652a0b297f.png)
+
+> Second table with train data
+![Table 2](https://user-images.githubusercontent.com/73450637/113486599-ada69680-9481-11eb-835a-466a7612b35a.png)
+
+> Third table with transaction data
+![Table 3](https://user-images.githubusercontent.com/73450637/113486608-ba2aef00-9481-11eb-9084-a6ca8003e9aa.png)
+
+> Fourth table with user logs
+![Table 4](https://user-images.githubusercontent.com/73450637/113486613-c31bc080-9481-11eb-9893-136afa619e0c.png)
+
+### STEP 2: Creating Joins
+
+Once the tables were created, joins were made with each table to the train dataset, the outcome were as shown below:
+
+> Join 1 (inner join) with member details and train dataset
+![Join 1](https://user-images.githubusercontent.com/73450637/113486761-58b75000-9482-11eb-92a4-84bedd2bb0fb.png)
+
+> Join 2 (inner join) with transaction details and train dataset
+![Join 2](https://user-images.githubusercontent.com/73450637/113486793-6a005c80-9482-11eb-84e0-9dc6908d6bed.png)
+
+> Join 3 (inner join) with user logs and train dataset
+![Join 3](https://user-images.githubusercontent.com/73450637/113486802-75538800-9482-11eb-97fa-cf8b82a57ad0.png)
+
+
+
+
+
