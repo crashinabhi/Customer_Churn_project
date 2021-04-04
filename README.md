@@ -52,3 +52,43 @@ Background  –
 - But for payment methods 8, 12, 13, 22, 35, 20, 17 15 and 32 there is high churning rate. 
 - Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
 - 94% of the users have their plan price 99,100, 129, 149 and 180 NTD. 
+
+## MACHINE LEARNING MODEL
+- Features to pay attention to: 
+    City, 
+    Age, 
+    Gender, 
+    Less_than_25, Less_than_50, 
+    Less_than_75, Less_than_99, 
+    Less_than_50, Above_99, 
+    Unique_Songs, 
+    Total_Secs
+    Auto_Renewed, 
+    Actual_Amount_Paid
+
+### Logistic Regression is a classification algorithm used to find the probability of event success and event failure. 
+
+### Advantages: 
+- Easily extend to multiple classes
+- Efficient to train.
+
+### Disadvantages:
+- The assumption of linearity between the dependent variable and the independent variables.
+- It is tough to obtain complex relationships using logistic regression
+		
+## K-Means is a unsupervised algorithms that groups similar data points together and discover underlying patterns. 
+
+### Advantages: 
+- Scales to large data sets. 
+- More intuitive clustering 
+
+### Disadvantages
+- Difficult to predict K-Value
+- Centroids can be dragged by outliers.
+
+## Dashboard
+- The Dashboard will be created using Tableau to begin with. We will explore TabPy to enhance if needed
+- Individual Data Visualisation
+- Machine Learning results visualisation
+- Interactive Element - Filtering categories like Gender, Age, City
+
