@@ -1,11 +1,5 @@
 # Customer_Churn_project
 
-## SQL Database
-
-<<<<<<< Updated upstream
-Added the data to the SQL database by creating tables. WIll be used later to join tables for final data set.
-Database will be used to create inital Machine learning model for the analysis
-=======
 ## Overview of the Project
 
 Customer Churn [or attrition] is considered to be one of the most important metrics of a growing business to evaluate. Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame. Through our project we are trying to build an algorithm that predicts whether a user will churn after their subscription expires with a leading music streaming service KKBOX [Asia's leading music streaming service]. 
