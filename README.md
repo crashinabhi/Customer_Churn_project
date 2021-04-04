@@ -24,3 +24,38 @@ The following technical analysis are to be done:
 ## Presentation
 
 Link to google slides [Google Slides] (https://docs.google.com/presentation/d/1UmXOxAZ9JpmB8rLuez7z_MdUy2Op1KxzBqEdxVQ9hEM/edit#slide=id.gcc00991075_0_4)
+
+## Name – Customer Churn Analysis (Churn Meaning – Attrition)
+Background  – 
+- Service companies growing exponentially
+- Online services major chunk 
+- Customer membership key to capture market share
+
+## Source Of Data
+- KKBOX offers subscription-based music streaming service. When users signs up for the service, users can choose to either manual renew or auto-renew the service. Users can actively cancel their membership at any time.
+- In this dataset, KKBox has included more users' behaviors, in order to enable to explore different user behaviors outside of the train and test sets. For example, a user could actively cancel the subscription, but renew within 30 days.
+
+## KEY QUESTIONS TO ANSWER
+- Identify the key features and their combinations from the data that .
+- Find the correlation amongst these feature.
+- Explore the model to find demographic groups that can be a focus area for the company to implement improved strategies 
+- Also explore groups that have a probability to stay can help to learn what drives that decision
+
+## Data
+- Member Details.csv
+- Transaction.csv
+- Uer Log.csv
+- Train Dataset.csv
+
+## DATA ANALYSIS - IMPORTANT OUTCOMES
+- Age group into groups, 0 represent [0-10], 1 represent [10-20], 2 represent [20-30], 3 represent [30-40], 4 represent [40-50], 5 represent [50-60], 6 represent [60-70] and 7 represent [70-80].
+- While considering the registration year distribution against churn data, from year 2010, registration is increased except 2014. 
+- There are almost 54% of users who uses 41st payment method. 
+- But for payment methods 8, 12, 13, 22, 35, 20, 17 15 and 32 there is high churning rate. 
+- Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
+- Lot of users (almost 94.25%) have their plan price 99,100, 129, 149 and 180 NTD. 
+
+
+
+
+
