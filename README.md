@@ -1,11 +1,5 @@
 # Customer_Churn_project
 
-## SQL Database
-
-<<<<<<< Updated upstream
-Added the data to the SQL database by creating tables. WIll be used later to join tables for final data set.
-Database will be used to create inital Machine learning model for the analysis
-=======
 ## Overview of the Project
 
 Customer Churn [or attrition] is considered to be one of the most important metrics of a growing business to evaluate. Customer churn is the percentage of customers that stopped using your company's product or service during a certain time frame. Through our project we are trying to build an algorithm that predicts whether a user will churn after their subscription expires with a leading music streaming service KKBOX [Asia's leading music streaming service]. 
@@ -57,5 +51,4 @@ Background  –
 - There are almost 54% of users who uses 41st payment method. 
 - But for payment methods 8, 12, 13, 22, 35, 20, 17 15 and 32 there is high churning rate. 
 - Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
-- Lot of users (almost 94.25%) have their plan price 99,100, 129, 149 and 180 NTD. 
->>>>>>> Stashed changes
+- 94% of the users have their plan price 99,100, 129, 149 and 180 NTD. 
