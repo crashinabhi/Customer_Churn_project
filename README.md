@@ -51,5 +51,4 @@ Background  –
 - There are almost 54% of users who uses 41st payment method. 
 - But for payment methods 8, 12, 13, 22, 35, 20, 17 15 and 32 there is high churning rate. 
 - Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
-- Lot of users (almost 94.25%) have their plan price 99,100, 129, 149 and 180 NTD. 
->>>>>>> Stashed changes
+- 94% of the users have their plan price 99,100, 129, 149 and 180 NTD. 
