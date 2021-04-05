@@ -55,6 +55,7 @@ Background  –
 - Almost a million of users [94.50%] purchased 30 days subscription, while only fewer purchased the rest of the plans. 
 - 94% of the users have their plan price 99,100, 129, 149 and 180 NTD. 
 
+<<<<<<< HEAD
 ## MACHINE LEARNING MODEL
 - Features to pay attention to: 
     City, 
