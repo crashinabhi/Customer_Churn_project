@@ -96,3 +96,5 @@ Link [https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_
 - Individual Data Visualisation
 - Machine Learning results visualisation
 - Interactive Element - Filtering categories like Gender, Age, City
+
+Link to Dash Board (https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_16179146156370/Dashboard?publish=yes)
