@@ -31,6 +31,8 @@ Background  –
 - Online services major chunk 
 - Customer membership key to capture market share
 
+Link [https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_16179146156370/Dashboard?publish=yes]
+
 ## Source Of Data
 - KKBOX offers subscription-based music streaming service. When users signs up for the service, users can choose to either manual renew or auto-renew the service. Users can actively cancel their membership at any time.
 - In this dataset, KKBox has included more users' behaviors, in order to enable to explore different user behaviors outside of the train and test sets. For example, a user could actively cancel the subscription, but renew within 30 days.
