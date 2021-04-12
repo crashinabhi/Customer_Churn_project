@@ -98,3 +98,5 @@ Link [https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_
 - Interactive Element - Filtering categories like Gender, Age, City
 
 Link to Dash Board (https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_16179146156370/Dashboard?publish=yes)
+https://public.tableau.com/views/CustomerAttrition_16181970264600/Dashboard2?:language=en-GB&:display_count=y&publish=yes&:origin=viz_share_link
+
