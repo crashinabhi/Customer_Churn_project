@@ -23,7 +23,7 @@ The following technical analysis are to be done:
 
 ## Presentation
 
-Link to google slides [Google Slides] (https://docs.google.com/presentation/d/1UmXOxAZ9JpmB8rLuez7z_MdUy2Op1KxzBqEdxVQ9hEM/edit#slide=id.gcc00991075_0_4)
+Link to google slides [Google Slides] (https://docs.google.com/presentation/d/13rITLJv3KUmM5BNorHXm7mptPDHycLcMMsVqB4s1Txw/edit?usp=sharing)
 
 ## Name – Customer Churn Analysis (Churn Meaning – Attrition)
 Background  – 
