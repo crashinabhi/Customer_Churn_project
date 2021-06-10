@@ -97,5 +97,7 @@ Link [https://public.tableau.com/profile/ancy.madhu#!/vizhome/CustomerAttrition_
 - Machine Learning results visualisation
 - Interactive Element - Filtering categories like Gender, Age, City
 
-Link to Dash Board (https://public.tableau.com/profile/abhijit7673#!/)
+Link to Customer Churn Dash Board (https://public.tableau.com/profile/abhijit7673#!/)
+
+
 
